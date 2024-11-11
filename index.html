@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>NeRFsPP2024</title>
+  <link rel="icon" type="image/x-icon" href="static/images/carousel4.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"> Evaluating Neural Radiance Fields for 3D PlantGeometry Reconstruction in Field Conditions</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/arbab-arshad/" target="_blank">Muhammad Arbab Arshad,</a>
+            </span>
+          
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/talukder-zaki-jubery-23322551/" target="_blank">Talukder Zaki Jubery,</a>
+            </span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/james-afful-745247179/" target="_blank">James Afful,</a>
+            </span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/anushrutjignasu/" target="_blank">Anushrut Jignasu,</a>
+            </span>
+
+      
+             <span class="author-block">
+              <a href="https://www.engineering.iastate.edu/people/profile/baskarg/" target="_blank">Baskar Ganapathysubramanian,</a>
+            </span>
+            
+            <span class="author-block">
+              <a href="https://www.engineering.iastate.edu/people/profile/soumiks/" target="_blank">Soumik Sarkar,</a>
+            </span>
+            <span class="author-block">
+              <a href="https://www.engineering.iastate.edu/people/profile/adarsh/" target="_blank">Adarsh Krishnamurthy</a>
+            </span>
+            
+            
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Iowa State University <br>
+            
+          </div>
+          <div class="publication-links">
+    <!-- Paper link -->
+    <span class="link-block">
+        <a href="https://spj.science.org/doi/epdf/10.34133/plantphenomics.0235" target="_blank" class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="fas fa-file-pdf"></i>
+            </span>
+            <span>Paper</span>
+        </a>
+    </span>
+    
+    <!-- Code link -->
+    <span class="link-block">
+        <a href=" https://github.com/idealab-isu/Evaluate-NeRFs-for-Plants" target="_blank" class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="fab fa-github"></i>
+            </span>
+            <span>Code</span>
+        </a>
+    </span>
+    <span class="link-block">
+    <a href="https://github.com/idealab-isu/Evaluate-NeRFs-for-Plants/tree/main/Dataset" target="_blank" class="external-link button is-normal is-rounded is-dark">
+        <span class="icon">
+            <i class="fas fa-database"></i> <!-- Database icon -->
+        </span>
+        <span>Dataset</span>
+    </a>
+</span>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- banner image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/Overview_page_1.png" alt="ArborCLIP">
+      <h2 class="subtitle has-text-centered">
+        <b>Overview of the NeRFs</b>NeRFs are proposed as an alternative to traditional TLS scans for 3D plant reconstruction, offering cost-effective and efficient modeling from images captured at multipleangles using a smartphone camera, in contrast to the higher expense and extensive processing time required by TLS for multiangle scan registration.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End banner image -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+
+            We evaluate different Neural Radiance Field (NeRF) techniques for the 3D reconstruction of plants invaried environments, from indoor settings to outdoor fields. Traditional methods usually fail to capture thecomplex geometric details of plants, which is crucial for phenotyping and breeding studies. We evaluatethe reconstruction fidelity of NeRFs in 3 scenarios with increasing complexity and compare the resultswith the point cloud obtained using light detection and ranging as ground truth. In the most realistic fieldscenario, the NeRF models achieve a 74.6% F1 score after 30 min of training on the graphics processingunit, highlighting the efficacy of NeRFs for 3D reconstruction in challenging environments. Additionally, wepropose an early stopping technique for NeRF training that almost halves the training time while achievingonly a reduction of 7.4% in the average F1 score. This optimization process substantially enhances thespeed and efficiency of 3D reconstruction using NeRFs. Our findings demonstrate the potential of NeRFsin detailed and realistic 3D plant reconstruction and suggest practical approaches for enhancing thespeed and efficiency of NeRFs in the 3D reconstruction process.  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- data feature -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" style="margin: 0;">Dataset Features</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <!-- First Image -->
+          <div class="publication-image" id="image-container-1">
+            <img src="static/images/dataset.png" alt="Category Distribution" style="cursor: pointer; width: 100%; height: auto;">
+          </div>
+          <p class="description">
+             Example images input to NeRFs for reconstruction across 3 different scenarios. (A) Scenario I: Indoor single object. (B) Scenario II: Indoor multiple objects. (C) Scenario III:Outdoor scene
+           
+          </p>
+          
+          
+          
+          <!-- Third Image -->
+          <div class="publication-image" id="image-container-3">
+            <img src="static/images/Workflow_page_1.png" alt="Sample Image 3" style="cursor: pointer; width: 80%; height: auto;">
+          </div>
+          <p class="description">
+             Workflow for 3D reconstruction and evaluation.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- New Benchmark Subsection -->
+<section class="hero is-small" style="margin-bottom: 1rem;">
+  <div class="hero-body" style="padding-bottom: 1rem;">
+    <div class="container">
+      <h2 class="title is-4">Results</h2>
+      <div class="content">
+        <p>
+         Precision-recall curves for the three scenarios based on varying distance thresholds after 30,000 iterations (Scenarios I and II) and 60,000 iterations (Scenario III)for (A) Instant-NGP, (B) TensoRF, and (C) NeRFacto
+        </p>
+      </div>
+      
+      <div class="image-container" style="text-align: center;">
+        <img src="static/images/overall.png" alt="lifestages" style="width: 80%; height: auto;">
+        <p class="caption has-text-centered">
+          
+        </p>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<script>
+  document.getElementById('copy-button').addEventListener('click', function() {
+    const bibtexText = document.getElementById('bibtex-citation').textContent;
+    navigator.clipboard.writeText(bibtexText).then(function() {
+      alert('BibTeX citation copied to clipboard!');
+    }, function(err) {
+      console.error('Could not copy text: ', err);
+    });
+  });
+</script>
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width has-text-centered">
+        <h2 class="title is-3">
+          <span class="dvima">Team</span>
+        </h2>
+        <div class="columns is-multiline is-centered" style="max-width: 95%; padding-left: 10%;">
+
+          <!-- Team Member 1 -->
+          <div class="column is-one-fifth has-text-centered video-column">
+            <a href="https://www.linkedin.com/in/arbab-arshad/" target="_blank" style="border-bottom: none;">
+              <span class="image">
+                <img src="static/images/team/Arbab.png" alt="" style="width: 90%;" />
+              </span>
+              <span style="font-weight: bold;">Muhammad Arbab Arshad</span>
+            </a>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="column is-one-fifth has-text-centered video-column">
+            <a href="https://www.linkedin.com/in/talukder-zaki-jubery-23322551/" target="_blank" style="border-bottom: none;">
+              <span class="image">
+                <img src="static/images/team/Zaki1.png" alt="" style="width: 90%;" />
+              </span>
+              <span style="font-weight: bold;">Talukder Zaki Jubery</span>
+            </a>
+          </div>
+
+      
+<div class="column is-one-fifth has-text-centered video-column">
+  <a href="https://www.linkedin.com/in/james-afful-745247179/" target="_blank" style="border-bottom: none;">
+    <span class="image">
+      <img src="static/images/team/James.jpeg" alt="James Afful" style="width: 90%;" />
+    </span>
+    <span style="font-weight: bold;">James Afful</span>
+  </a>
+</div>
+
+<div class="column is-one-fifth has-text-centered video-column">
+  <a href="https://www.linkedin.com/in/anushrutjignasu/" target="_blank" style="border-bottom: none;">
+    <span class="image">
+      <img src="static/images/team/anshu.jpeg" alt="Anushrut Jignasu" style="width: 90%;" />
+    </span>
+    <span style="font-weight: bold;">Anushrut Jignasu</span>
+  </a>
+</div>
+
+          
+          <!-- Team Member 8 -->
+          <div class="column is-one-fifth has-text-centered video-column">
+            <a href="https://www.engineering.iastate.edu/people/profile/baskarg/" target="_blank" style="border-bottom: none;">
+              <span class="image">
+                <img src="static/images/team/Baskar.png" alt="" style="width: 88%;" />
+              </span>
+              <span style="font-weight: bold;">Baskar Ganapathysubramanian</span>
+            </a>
+          </div>
+
+   <!-- Team Member 11 -->
+          <div class="column is-one-fifth has-text-centered video-column">
+            <a href="https://www.engineering.iastate.edu/people/profile/soumiks/" target="_blank" style="border-bottom: none;">
+              <span class="image">
+                <img src="static/images/team/Soumik1.png" alt="" style="width: 92%;" />
+              </span>
+              <span style="font-weight: bold;">Soumik Sarkar</span>
+            </a>
+          </div>
+
+          <!-- Team Member 10 -->
+          <div class="column is-one-fifth has-text-centered video-column">
+            <a href="https://www.engineering.iastate.edu/people/profile/adarsh/" target="_blank" style="border-bottom: none;">
+              <span class="image">
+                <img src="static/images/team/Adarsh.png" alt="" style="width: 90%;" />
+              </span>
+              <span style="font-weight: bold;">Adarsh Krishnamurthy</span>
+            </a>
+          </div>
+
+         
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--End Team -->
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+  </body>
+  </html>
