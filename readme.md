@@ -15,8 +15,8 @@ Available Online: https://spj.science.org/doi/full/10.34133/plantphenomics.0235
 
 The dataset is organized into two primary folders:
 
-1. **Images and Poses**
-2. **Ground Truth Point Clouds And Alignment Matrices**
+1. **Images and Poses**.
+2. **Ground Truth Point Clouds And Alignment Matrices**.
 
 ### Images and Poses
 
