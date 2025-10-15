@@ -4,7 +4,7 @@
 This dataset supports research in 3D reconstruction and computer vision, focusing on plant-based scenarios. It consists of two main components:
 
 1. Captured images with corresponding poses
-2. Ground truth LiDAR scans for evaluation
+2. Ground truth LiDAR scans for evaluation 
 
 ## Research 
 This is used in the paper : Evaluating Neural Radiance Fields for 3D Plant Geometry Reconstruction in Field Conditions 
